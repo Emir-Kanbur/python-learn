@@ -1,19 +1,37 @@
-
-# Mac OS
+# macOS
 .DS_Store
 
-# Python
+# Python bytecode
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
+*.py[cod]
+*.so
+
+# Virtual environments
 env/
 venv/
 .venv/
-pip-log.txt
-pip-delete-this-directory.txt
 
-# Jupyter Notebooks
-.ipynb_checkpoints
+# Environment files
+.env
+.env.*
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter checkpoints
 *-checkpoint.ipynb
+
+# Editor / IDE
+.vscode/
+.idea/
