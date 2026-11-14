@@ -13,3 +13,6 @@ Katkıda bulunmak isterseniz aşağıdaki adımları izleyin:
 
 - Notebook dosyalarında değişiklik yaparken açıklayıcı hücre notları eklemeye özen gösterin.
 - Mümkünse örnekleri çalıştırıp hatasız olduğundan emin olun.
+
+- Yerel çıktıları ve çalıştırma sayaçlarını temizleyin. Örnek verilerde kişisel bilgi kullanmayın.
+- `python scripts/check-notebooks.py` komutuyla notebook'ları doğrulayın.

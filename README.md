@@ -15,6 +15,10 @@ Bu depo, Python öğrenme sürecimde hazırladığım Jupyter Notebook notların
 
 Kaynaklara atıf yapılması, ilgili kaynakların bu depodaki her içerik için ayrıca bir lisans verdiği anlamına gelmez. Üçüncü taraf içerikler kendi lisans ve haklarına tabidir.
 
+## Çalışma sırası
+
+Temel konular için [ilk notebook](python-udemy/Jupyter-Notebook/1-%C4%B0lk%20Deneme.ipynb) ile başlayın. Ardından numara sırasıyla veri türleri, koleksiyonlar, koşullar ve döngüler üzerinde ilerleyin. İleri notebook'larda NumPy, Matplotlib ve SciPy örnekleri bulunur.
+
 ## Gereksinimler
 
 - Python 3.10+
@@ -39,6 +43,10 @@ jupyter notebook
 ```
 
 Ardından notebook dosyalarını açarak çalışabilirsiniz.
+
+## Doğrulama
+
+`python scripts/check-notebooks.py` dosyaların Jupyter şemasına uygunluğunu ve kod hücrelerinin sözdizimini sınar. İlk notebook'u ayrı bir çekirdekte çalıştırır. Girdi isteyen veya bir hatayı göstermek için yazılmış hücreleri Jupyter üzerinden tek tek deneyebilirsiniz.
 
 ## Katkı
 
